@@ -8,6 +8,6 @@ if(a%7==0) {
 break;
 }
 } while(1);
-printf("Tnank You");
+printf("Thank You");
 return 0;
 }
