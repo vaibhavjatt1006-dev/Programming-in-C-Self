@@ -11,7 +11,7 @@ int d;
 printf("Enter common difference in A.P : ");
 scanf("%d",&d);
 printf("A.P is :\n");
-for(int i=1;i<=10;i++)
+for(int i=1;i<=n;i++)
 {
 printf("%d\n",a);
 a=a+d;
