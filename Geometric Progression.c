@@ -4,16 +4,16 @@ int main ()
 int n;
 printf("Enter number of terms in G.P : ");
 scanf("%d",&n);
-int a;
+float a;
 printf("Enter first term of G.P : ");
-scanf("%d",&a);
-int r;
+scanf("%f",&a);
+float r;
 printf("Enter common ratio in G.P : ");
-scanf("%d",&r);
+scanf("%f",&r);
 printf("G.P is :\n");
 for(int i=1;i<=n;i++)
 {
-printf("%d\n",a);
+printf("%f\n",a);
 a=a*r;
 }
 return 0;
