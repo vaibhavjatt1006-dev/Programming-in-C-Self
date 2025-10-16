@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main () 
+{
+int r;
+printf("Enter odd number of rows : ");
+scanf("%d",&r);
+char ch='*';
+for (int i=1; i<=r; i++)
+{
+for (int j=1; j<=2*r-i; j++)
+{
+if (i+j<=r)
+{
+printf("  ");
+}
+else
+{
+printf("%c ",ch);
+}
+}
+printf("\n");
+}
+return 0;
+}
